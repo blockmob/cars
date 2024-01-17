@@ -1120,6 +1120,7 @@ support for no js
 	line-height: 45px;
 	font-weight: 300;
 }
+
 .fes3-img {
   background: url(../images/Home/car-front.jpg) 50% 50% no-repeat;
   background-size: cover;
@@ -1784,6 +1785,14 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   font-weight: 300;
   letter-spacing: 10px;
 }
+.title-fs-custom-wide {
+	color:#fff;
+	font-family: 'Lato',Arial,Helvetica,sans-serif;
+  font-size: 45px;
+  line-height: 58px;
+  font-weight: 300;
+  letter-spacing: 10px;
+}
 .w-100 {
   width:100%;
 }
@@ -1799,7 +1808,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   .port-grid-5 .port-item {
       width: 25%;
   }
-  .port-text-cont .title-fs-45-wide {
+  .port-text-cont .title-fs-45-wide .title-fs-custom-wide {
     font-size: 35px;
     line-height: 47px;
     letter-spacing: 5px;
@@ -1830,7 +1839,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
 	.port-item, .port-grid-2 .port-item,	.port-grid-3 .port-item, .container .port-grid-3 .port-item, .port-grid-5 .port-item , .port-item.port-item-width-2{
     width: 100%;
   }	
-  .port-text-cont .title-fs-45-wide {
+  .port-text-cont .title-fs-45-wide .title-fs-custom-wide {
     font-size: 25px;
     line-height: 38px;
     letter-spacing: 1px;
@@ -1840,7 +1849,9 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
     display: block;
   }
 
+
 }
+
 
 /* #PORTFOLIO 1 #NEW 
 =====================================================*/
@@ -2600,7 +2611,8 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   background-position: 50% 0px;
 }
 .sm-img-bg-fullscr {
-  background-position: 50% 0px;
+  background-position: 79% 0px;
+  /* background-position: 50% 0px; */
   background-size:cover;
   
   width: 100%;
