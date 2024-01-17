@@ -1851,6 +1851,20 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
 
 
 }
+@media only screen and (max-width: 480px) {
+	
+  .title-fs-custom-wide {
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 1px;
+  } 
+  .port-filter a {
+    width:100%;
+    display: block;
+  }
+
+
+}
 
 
 /* #PORTFOLIO 1 #NEW 
