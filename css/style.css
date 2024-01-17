@@ -1856,12 +1856,9 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   .title-fs-custom-wide {
     font-size: 25px;
     line-height: 38px;
-    letter-spacing: 1px;
+    letter-spacing: 5px;
   } 
-  .port-filter a {
-    width:100%;
-    display: block;
-  }
+  
 
 
 }
